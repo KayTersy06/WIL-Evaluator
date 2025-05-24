@@ -1,0 +1,24 @@
+create a database driven application that is robust, secured, conversational, and personalized that determines if a student will qualify for WIL or not 
+
+a lecturer has the following permission(add student, remove a student, view all students, edit student mark, view students according to WIL Status)
+(lungi-456)
+a student has the following:
+-student number
+-name and surname
+-year of study
+-modules(for final semester)( a module has the following: ~name,~id,subject code, ~final mark, outcome)(might add lecturer entity)
+-WIL status(defaulf = "pending" else approved/rejected)
+-creation date
+
+a coordinator has the following permission(update WIL status)(vuyi-123)
+
+a student has the following permission(view own record/status)(enter studno after login-make the whole experience session controlled)
+
+exception handling:
+-marks should not be less than 0 or greater than 100
+
+when the lecturer logs out a summary report should be displayed
+
+WILEvaluatorDB
+app
+123
